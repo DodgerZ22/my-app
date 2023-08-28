@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import './joke.js'
 
-function App() {
+/*function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -22,4 +23,21 @@ function App() {
   );
 }
 
+export default App;*/
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+      <div class="main-box">
+      
+        <p id="joke"></p>
+        <button id="btn">Get Random Joke Here</button>
+    </div>
+      </header>
+    </div>
+  );
+}
+
 export default App;
+
