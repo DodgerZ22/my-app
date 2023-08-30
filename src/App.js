@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import './joke.js'
+import './joke.js';
 
 /*function App() {
   return (
@@ -30,7 +29,6 @@ function App() {
     <div className="App">
       <header className="App-header">
       <div class="main-box">
-      
         <p id="joke"></p>
         <button id="btn">Get Random Joke Here</button>
     </div>
